@@ -1,0 +1,112 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation Workflow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+               <img src="logo.png" alt="Wsallk Logo" class="logo-img">
+                   <span class="logo-text">Wsallk</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="application.html" class="nav-link">App Screens</a>
+                <a href="automation.html" class="nav-link active">Automation</a>
+            </div>
+           <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Automation Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Automation Workflow</h1>
+            <p class="page-description">Wsallk uses automations to keep orders, data, and AI interactions smooth and fast.</p>
+        </div>
+    </section>
+
+   
+    <section class="automation-section">
+        <div class="container">
+            <div class="workflow-container">
+                
+                <div class="workflow-card">
+                    <div class="workflow-image">
+                        <img src="workflow-1.png" alt="Webhook Workflow" class="workflow-img">
+                    </div>
+                    <div class="workflow-caption">
+                        <h3>Automation 1:  Login Data</h3>
+                        <p>This automation handles user login information sent from the application.
+                        User data is stored as a new row in Google Sheet so the AI agent can later read the user’s name and details.
+                        The data is organized to ensure accurate identification of each user.
+                         This allows the system to personalize interactions based on stored user information.</p>
+                    </div>
+                </div>
+                
+               
+                <div class="workflow-card">
+                    <div class="workflow-image">
+                        <img src="workflow-2.png" alt="Multi-Step Automation Workflow" class="workflow-img">
+                    </div>
+                    <div class="workflow-caption">
+                        <h3>Automation 2:  Address Data</h3>
+                        <p>This automation processes the user’s address information sent from the application.
+                         It identifies the address type (house or flat) and formats the data accordingly.
+                         The address details are then stored correctly in the same Google Sheet.
+                         This ensures accurate location data for delivery and future system use.</p>
+                    </div>
+                </div>
+                
+               
+                <div class="workflow-card">
+                    <div class="workflow-image">
+                        <img src="workflow-3.png" alt="Data Integration Workflow" class="workflow-img">
+                    </div>
+                    <div class="workflow-caption">
+                        <h3>Automation 3:  Order Update + Retrieval </h3>
+                        <p>This automation updates and retrieves the user’s order information.
+                         It saves the user’s latest voice order so it is always kept up to date.
+                         The stored data can be accessed by the AI agent at any time.
+                         This allows the AI to greet the user, recall past orders, and reading his address.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer - Compact Version -->
+<footer class="footer-compact">
+    <div class="container">
+        <!-- University Information -->
+        <div class="university-info-compact">
+            <img src="Picture1.png" alt="University of Bahrain Logo" class="uni-logo-compact">
+            <h3 class="uni-name-compact">University of Bahrain</h3>
+            <p class="uni-college-compact">College of Information Technology</p>
+            <p class="uni-dept-compact">Department of Information Systems</p>
+        </div>
+        
+        <!-- Project Info -->
+        <div class="project-info-compact">
+            <p class="project-tagline-compact">AI Powered Food Delivery App – Senior Project 2025/2026</p>
+            <p class="project-contact-compact">Contact: <a href="mailto:info@wsallk-system.com">info@wsallk-system.com</a></p>
+        </div>
+        
+        <!-- Copyright -->
+        <p class="copyright-compact">© 2025 Wsallk. All rights reserved. Academic Project – University of Bahrain</p>
+    </div>
+</footer>
+ <script src="script.js"></script>
+
+   
+</body>
+</html>
