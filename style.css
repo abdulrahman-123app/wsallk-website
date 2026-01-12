@@ -2955,3 +2955,37 @@ transform: scale(1.05);
     font-weight: 600;
     color: #000;
 }
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--white);
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+     .mobile-menu-btn {
+        display: block;
+    }
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .app-screens-container,
+    .workflow-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .app-screen-image,
+    .workflow-image {
+        min-height: 400px;
+    }
+}
