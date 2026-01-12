@@ -2986,9 +2986,10 @@ transform: scale(1.05);
         min-height: 400px;
     }
 }
-.navbar .logo-text {
-    color: #000;
-    background: none;
-    -webkit-text-fill-color: initial;
+.logo-text {
+    color: #000 ;
+    background: none ;
+    -webkit-text-fill-color: initial ;
 }
+
 
